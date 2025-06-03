@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---------- Párrafos ----------*/
+p {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255, 255, 255)
+}
+
+/*---------- Títulos ----------*/
+h2 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.500);
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1%;
+}
+
+/*---------- Enlaces ----------*/
+a {
+    text-decoration: none;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    ;
+}
+
+/*---------- Body ----------*/
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/*---------- Hero ----------*/
+.hero {
+    height: 100vh;
+    background-image: url(../img/hero-background.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 60px;
+    font-family: "Lexend", sans-serif;
+}
+
+.hero p {
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.700);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.boton a {
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 15px 10px 15px;
+    transition: 0.5s;
+}
+
+.boton a:hover {
+    background-color: rgb(0, 160, 130);
+    box-shadow: 5px 5px 10px 2px rgb(0, 0, 0, 0.500);
+}
+
+/*---------- Header ----------*/
+header {
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.500);
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+
+.project-nav {
+    background-color: rgb(0, 0, 0);
+}
+
+header nav div a h1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo-header img {
+    height: 120px;
+    display: none;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255) !important;
+}
+
+header nav ul li a:hover {
+    color: rgb(0, 160, 130) !important;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-secondary {
+    border: none;
+    transition: 0.5s;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(0, 160, 130);
+}
+
+.dropdown-item {
+    transition: 0.5s;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(0, 160, 130);
+}
+
+.project-nav li a:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+/*---------- Nosotros ----------*/
+.nosotros {
+    height: 100vh;
+    background-image: url(../img/nosotros-background-d.JPG);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nosotros h2 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.500);
+}
+
+.nosotros p {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.500);
+}
+
+/*---------- Videos ----------*/
+.videos h2 {
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.videos {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    padding: 20px 0;
+}
+
+iframe {
+    pointer-events: auto;
+    z-index: 1;
+    position: relative;
+}
+
+/*---------- Proyectos ----------*/
+.contenedor {
+    height: auto;
+}
+
+.contenedor h2 {
+    margin-top: 8%;
+}
+
+.cards img {
+    height: 70%;
+    width: auto;
+    border-radius: 5px;
+}
+
+.cards p {
+    font-size: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards div {
+    height: 75vh;
+    width: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 2% 1% 2%;
+    margin: 10px;
+}
+
+.cards h3 {
+    font-size: 25px;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.cards a {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px 5px 10px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.cards div a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/*---------- El Chico del Clima ----------*/
+.ecdc {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    z-index: 1;
+}
+
+.ecdc::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/ecdc-cover-a.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.ecdc {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ecdc-bg {
+    background-image: url(../img/ecdc-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*---------- Jaoquín Ludueña ----------*/
+.joaquin {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    z-index: 1;
+}
+
+.joaquin::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/jqnldñ-cover-a.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.joaquin {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jqnldñ-bg {
+    background-image: url(../img/jqnldñ-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*---------- LUPA ----------*/
+.lupa {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    z-index: 1;
+}
+
+.lupa::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/lupa-cover-a.JPG');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.lupa {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lupa-bg {
+    background-image: url(../img/lupa-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*---------- Podcast y Video ----------*/
+.podcast-title {
+    margin-top: 40px;
+}
+
+/*---------- Cuchá Esto ----------*/
+.cuchaesto {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    z-index: 1;
+}
+
+.cuchaesto::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/cuchaesto-cover.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.cuchaesto {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*---------- Huelo, luego pienso ----------*/
+.huelo {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    z-index: 1;
+}
+
+.huelo::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/huelopodcast-cover.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.huelo {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*---------- Pages ----------*/
+
+.artistas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.artistas h2 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.artistas p {
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.700);
+    padding: 2%;
+}
+
+.spotify-iframes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 15px;
+}
+
+.discografia h2 {
+    margin-bottom: 40px;
+}
+
+.spotify-iframes iframe {
+    height: 450px;
+    width: 400px;
+    margin-bottom: 4%;
+}
+
+.streaming {
+    margin: 90px 0px 50px;
+}
+
+.streaming div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.streaming a {
+    font-size: 90px;
+    margin: 0px 10px;
+    text-shadow: 5px 10px 25px rgb(0, 0, 0, 0.500);
+    transition: 0.5s;
+}
+
+.streaming a:hover {
+    color: rgb(0, 160, 130);
+}
+
+.galeria h2 {
+    margin-bottom: 40px;
+}
+
+.galeria {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.galeria .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.galeria .carousel-item {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.galeria .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*---------- Contacto ----------*/
+
+.contacto-bg {
+    background-image: url(../img/lupa-galeria-i.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacto h2 {
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+.contacto h4{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.700);
+    font-size: 20px;
+}
+
+.formulario {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.formulario form {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+/*---------- Novedades ----------*/
+.novedades h2 {
+    margin-top: 8%;
+}
+
+.novedades {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#carouselNovedades .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#carouselNovedades .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+}
+
+#carouselNovedades .ratio iframe {
+    pointer-events: auto;
+    border-radius: 10px;
+}
+
+.no-transition .carousel-item {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.carousel-item:not(.active) {
+    display: none !important;
+}
+
+
+/*---------- Footer ----------*/
+footer {
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 175px 75px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos img {
+    height: 120px;
+}
+
+.logos p {
+    font-size: 15px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social img {
+    height: 30px;
+    margin: 25px;
+}
+
+.texto-footer {
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-footer a {
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.texto-footer a:hover {
+    color: rgb(0, 160, 130);
+}
+
+/*---------- Media query ----------*/
+@media screen and (max-width:1110px) {
+
+    body h2,
+    h3 {
+        font-size: 28px;
+    }
+
+    body p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .project-nav {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media screen and (max-width:650px) {
+    .artistas {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:630px) {
+    header {
+        height: 90px;
+    }
+
+    header nav div a h1 {
+        display: none;
+    }
+
+    .logo-header img {
+        height: 80px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:570px) {
+    footer {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .hero {
+        height: 900px;
+    }
+
+    .nosotros {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width:398px) {
+    .cards p {
+        font-size: 12px;
+    }
+}
