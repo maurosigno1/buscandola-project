@@ -358,7 +358,7 @@ iframe {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('../img/lupa-cover-a.JPG');
+    background-image: url('../img/lupa-cover-a.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(10px);
